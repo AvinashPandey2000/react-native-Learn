@@ -12,6 +12,7 @@ export default function App() {
   const [data,setData] = useState('My name is avinash')
   return (
     <View >
+    {/* component section */}
       {/* <PrintDetail/>
       <ButtonComponent/>
       <State/> */}
@@ -21,7 +22,10 @@ export default function App() {
       }}/> */}
     {/* <Styling/> */}
     {/* <Input/> */}
-    <TaskFirst/>
+    {/* <TaskFirst/> */}
+
+    {/* navigation section */}
+    
     </View>
     );
 }
